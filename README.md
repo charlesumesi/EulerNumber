@@ -1,7 +1,6 @@
 # EulerNumber
 A code that accurately calculates Euler's number (e) to any number of digits
-
-<pre><code class="python">
+```python
 from decimal import Decimal as Dec, getcontext as gc
 
 def factorial(n):   # Factorial function Will be required in the e_Calculator function
@@ -16,4 +15,4 @@ def e_Calculator():
     gc().prec = prec
     digits = int(input('Enter the number of digits you want for your value of e : '))
     ...
-</pre></code>
+```
