@@ -1,5 +1,5 @@
 # EulerNumber
-A code that accurately calculates Euler's number (e) to any number of digits
+A Python code that accurately calculates Euler's number (e) to any number of digits
 ```python
 from decimal import Decimal as Dec, getcontext as gc
 
